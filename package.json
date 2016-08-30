@@ -1,0 +1,46 @@
+{
+  "name": "nanocyte-component-set-config-on-data-with-transaction",
+  "version": "1.0.0",
+  "description": "Nanocyte component set-config-on-data-with-transaction",
+  "keywords": [
+    "nanocyte",
+    "octoblu",
+    "meshblu"
+  ],
+  "homepage": "https://github.com/octoblu/nanocyte-component-set-config-on-data-with-transaction",
+  "bugs": "https://github.com/octoblu/nanocyte-component-set-config-on-data-with-transaction/issues",
+  "author": {
+    "name": "Octoblu",
+    "url": "https://github.com/octoblu"
+  },
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/octoblu/nanocyte-component-set-config-on-data-with-transaction.git"
+  },
+  "scripts": {
+    "test": "istanbul cover _mocha -- -R spec --require coffee-coverage/register-istanbul"
+  },
+  "dependencies": {
+    "coffee-script": "^1.10.0",
+    "lodash": "^4.0.1",
+    "nanocyte-component-return-value": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "codeclimate-test-reporter": "^0.3.3",
+    "coffee-coverage": "^1.0.1",
+    "coffee-script": "^1.10.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.0.2",
+    "mocha-istanbul": "^0.3.0",
+    "sinon": "^1.17.3",
+    "sinon-chai": "^2.8.0"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">=2.0.0"
+  },
+  "license": "MIT"
+}
